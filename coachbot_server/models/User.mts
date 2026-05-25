@@ -12,6 +12,10 @@ export default class User {
     return this.name;
   }
 
+  getId() {
+    return this.id;
+  }
+
   printInfo() {
     return `Username: ${this.name} -- ID: ${this.id}`;
   }
