@@ -1,0 +1,6 @@
+# node stuff
+node_modules
+package-lock.json
+
+# post-compilation (typescript etc.) build files
+dist

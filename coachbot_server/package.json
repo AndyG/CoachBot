@@ -1,0 +1,23 @@
+{
+  "name": "coachbot_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch app.mts",
+    "build": "tsc",
+    "prod": "node dist/app.mjs"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.9.1"
+  }
+}
